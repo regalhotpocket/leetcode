@@ -22,3 +22,23 @@ function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode
         cur.next = list2
     return start.next;
 };
+
+// Solution accepted on 03/12/2022 13:27
+// Runtime: 68 ms, faster than 97.27% of TypeScript online submissions
+// Memory Usage: 45.3 MB, less than 25.40% of TypeScript online submissions
+function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode | null {
+    if (list1 != null && list2 != null) {
+        if (list1.val <= list2.val) {
+            list1.next = mergeTwoLists(list1.next, list2);
+            return list1;
+        }
+        else {
+            list2.next = mergeTwoLists(list1, list2.next);
+            return list2;
+        }
+    }
+    else if (list1 == null)
+        return list2;
+    else
+        return list1;
+};
