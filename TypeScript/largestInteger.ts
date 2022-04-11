@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity
 // Runtime: 56 ms, faster than 100.00% of TypeScript online submissions for Largest Number After Digit Swaps by Parity.
-/ Memory Usage: 45.2 MB, less than 100.00% of TypeScript online submissions for Largest Number After Digit Swaps by Parity.
+// Memory Usage: 45.2 MB, less than 100.00% of TypeScript online submissions for Largest Number After Digit Swaps by Parity.
 // 04/10/2022 21:26
 function largestInteger(num: number): number {
     const digits = String(num).split("").map(n => Number(n));
