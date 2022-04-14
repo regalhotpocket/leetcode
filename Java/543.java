@@ -1,7 +1,7 @@
-// https://leetcode.com/problems/diameter-of-binary-tree/submissions/
-// 03/12/2022 19:39
+// https://leetcode.com/problems/diameter-of-binary-tree/
 // Runtime: 2 ms, faster than 16.28% of Java online submissions for Diameter of Binary Tree.
 // Memory Usage: 43.7 MB, less than 16.64% of Java online submissions for Diameter of Binary Tree.
+// 03/12/2022 19:39
 class Solution {
     private int[] helper(TreeNode node) {
         if (node == null) {
