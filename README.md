@@ -1,9 +1,7 @@
 # leetcode
 Leetcode solutions I use to practice new programming languages.
 
-Currently learning Typescript and Java.
-
-## Good problems
+Problems taken from [here](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions).
 | Problem                                                                   | Difficulty | Topic | TypeScript | Java | Python | 
 | ------------------------------------------------------------------------- | ---------- | ----- | ---------- | ---- | ------ |
 | [1. Two Sum](https://leetcode.com/problems/two-sum/)                      | Easy       | Array | ✔️        |  ✔️  |  ✔️   |
