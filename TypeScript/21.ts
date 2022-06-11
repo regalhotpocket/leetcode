@@ -1,7 +1,7 @@
-// https://leetcode.com/problems/merge-two-sorted-lists/submissions/
-// Solution accepted on 03/12/2022 13:07
-// Runtime: 108 ms, faster than 57.12% of TypeScript online submissions
-// Memory Usage: 44.4 MB, less than 71.10% of TypeScript online submissions
+// https://leetcode.com/problems/merge-two-sorted-lists/
+// Runtime: 108 ms, faster than 57.12% of TypeScript online submissions.
+// Memory Usage: 44.4 MB, less than 71.10% of TypeScript online submissions.
+// 03/12/2022 13:07
 function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode | null {
     const start = new ListNode();
     var cur = start;
@@ -22,10 +22,9 @@ function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode
         cur.next = list2
     return start.next;
 };
-
-// Solution accepted on 03/12/2022 13:27
-// Runtime: 68 ms, faster than 97.27% of TypeScript online submissions
-// Memory Usage: 45.3 MB, less than 25.40% of TypeScript online submissions
+// Runtime: 68 ms, faster than 97.27% of TypeScript online submissions.
+// Memory Usage: 45.3 MB, less than 25.40% of TypeScript online submissions.
+// 03/12/2022 13:27
 function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode | null {
     if (list1 != null && list2 != null) {
         if (list1.val <= list2.val) {
