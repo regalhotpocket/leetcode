@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/climbing-stairs/submissions/
+// https://leetcode.com/problems/climbing-stairs/
 // Runtime: 71 ms, faster than 79.22% of TypeScript online submissions for Climbing Stairs.
 // Memory Usage: 44.1 MB, less than 5.26% of TypeScript online submissions for Climbing Stairs.
 // 03/20/2022 14:43
