@@ -1,7 +1,7 @@
-// https://leetcode.com/problems/diameter-of-binary-tree/submissions/
-// 03/12/2022 19:20
+// https://leetcode.com/problems/diameter-of-binary-tree/
 // Runtime: 117 ms, faster than 50.58% of TypeScript online submissions for Diameter of Binary Tree.
 // Memory Usage: 48 MB, less than 5.23% of TypeScript online submissions for Diameter of Binary Tree.
+// 03/12/2022 19:20
 function diameterOfBinaryTree(root: TreeNode | null): number {
     function helper(node: TreeNode | null): [number, number] {
         if (node == null)
