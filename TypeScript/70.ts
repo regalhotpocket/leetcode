@@ -7,4 +7,4 @@ function climbStairs(n: number): number {
     for (var i = 0; i < n; i++)
         [oneBack, twoBack] = [oneBack + twoBack, oneBack + 1]; 
     return oneBack + 1;
-}
+};
