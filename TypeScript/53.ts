@@ -10,3 +10,16 @@ function maxSubArray(nums: number[]): number {
     }
     return best;
 };
+
+// https://leetcode.com/problems/maximum-subarray
+// Runtime: 112 ms, faster than 67.92% of TypeScript online submissions for Maximum Subarray.
+// Memory Usage: 51.9 MB, less than 86.97% of TypeScript online submissions for Maximum Subarray.
+// 06/16/2022 22:03
+function maxSubArray(nums: number[]): number {
+    var best = Number.NEGATIVE_INFINITY, cur = Number.NEGATIVE_INFINITY;
+    nums.forEach(n => {
+        cur = cur < 0 ? n : cur + n; 
+        best = Math.max(best, cur);
+    });
+    return best;
+};
