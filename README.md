@@ -14,3 +14,4 @@ Problems taken from [here](https://leetcode.com/discuss/general-discussion/46059
 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy       | List | ✔️ |  |  |
 | [100. Same Tree](https://leetcode.com/problems/same-tree/) | Easy       | Tree | ✔️ |  |  |
 | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy       | Tree | ✔️ |  |  |
+| [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy       | Tree | ✔️ |  |  |
